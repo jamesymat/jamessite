@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style> h1 {color: teal; text-align: center;}
+  #rotateimage {transform: rotate(90deg); }
+  #sassy {transform: rotate(90deg); }
+  h2 {color: navy; text-align: center; }
+body {background-color: lightgrey; }</style>
 
+  <script>
+  function changeimage(){
+    // <img id="sassy" src= "sassycat.jpg" alt= "sassy" width = "400" height = "300">
+    if (document.getElementById("rotateimage").src == "rags.jpg"){
+      document.getElementById("rotateimage").src = "sassycat.jpg";
+    }
+    else{
+      document.getElementById("rotateimage").src = "rags.jpg";
+    }
+  }
+  </script>
+</head>
+    <body>
+  <h1><strong>Fur-ever Fat</strong></h1>
+      <img id="rotateimage" src = "rags.jpg" alt="cat"
+  style = "width: 400px; height: 300px;"/>
+
+      <button onclick="changeimage()">Click here for other image</button>
+  <h2>Into the Mind of a Cat</h2>
+      <h3><p>Interviewer: Please introduce yourself.</p>
+      <p>Ragsy: Hi, my name is Ragsy. I am a ragdoll cat. We are known to be large, but I am a little bit bigger than the others. I have been on a diet for my whole life. </p>
+      <p>Interviewer: How old are you?</p>
+      <p>Ragsy: In human years, I am 9 years old and have been with my family for 8 years now.</p>
+      <p>Interviewer: What does a day in your life look like?</p>
+      <p>Ragsy: My life mainly consists of eating and sleeping.</p>
+      <p>Interviewer: What are your likes and dislikes?</p>
+      <p>Ragsy: I love food and people who feed me. I hate cars, loud noises, car rides, other animals, and having to move anywhere away from the food bowl. </p>
+      <p>Interviewer: What is your worst fear? </p>
+      <p>Ragsy: My worst nightmare is getting stuck in the cat door, again. </p>
+      <p>Interviewer: How do you get exercise? </p>
+      <p>Ragsy: I prefer to exercise by running to the food bowl or jumping onto the forbidden table.</p></h3>
+    </body>
+</html>
